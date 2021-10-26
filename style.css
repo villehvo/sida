@@ -1,0 +1,38 @@
+body {
+background-color: gray;
+}
+nav li {
+    display: inline-block;
+    margin-left: 180px;
+    color: chartreuse;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+.logga {
+    float: left;
+}
+nav {
+    float: right;
+}
+.navbar {
+    margin: auto;
+}
+header {
+    background: purple;
+}
+header::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+nav a {
+text-transform: uppercase;
+text-decoration: none;
+font-size:  60px;
+}
+
+a:hover {
+    background-image: url(logga.jpg);
+}
